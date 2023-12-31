@@ -62,6 +62,7 @@ class _ResultWidgetState extends State<ResultWidget> {
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: ClipRRect(
+                  borderRadius: BorderRadius.circular(30),
                   child: BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                     child: Container(
